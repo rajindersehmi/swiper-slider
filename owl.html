@@ -1,0 +1,85 @@
+
+    <html>
+      <head>
+      <title>Owl Carousel</title>
+      <!-- Swiper Slider css -->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      <!-- end -->
+      <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet"/>
+      </style>
+      </head>
+      <style>
+        .swiper-container {
+width: 600px;
+height: 300px;
+}
+      </style>
+      <body>
+        <!-- Slider main container -->
+<div class="swiper-container">
+<!-- Additional required wrapper -->
+<div class="swiper-wrapper">
+  <!-- Slides -->
+  <div class="swiper-slide"><img src="https://pub.oneeyegps.com/netweb3/images/ielts.jpg"></div>
+  <div class="swiper-slide"><img src="https://pub.oneeyegps.com/netweb3/images/pte.jpg"></div>
+  <div class="swiper-slide"><img src="https://pub.oneeyegps.com/netweb3/images/ielts.jpg"></div>
+  ...
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
+<!-- If we need scrollbar -->
+<div class="swiper-scrollbar"></div>
+</div>
+
+
+
+      
+        
+    
+      
+      </body>
+      
+
+
+       <!-- Javascript  -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <scrip type="text/javascript" src="assets/js/popper.min.js"></scrip>
+    <scrip type="text/javascript" src="assets/js/swiper-bundle.js"></scrip>
+    <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/bootstrap.min.js"></script>
+    <!-- end -->
+      
+    <script>
+      const swiper = new Swiper('.swiper-container', {
+// Optional parameters
+direction: 'horizontal',
+loop: true,
+autoplay:true,
+
+// If we need pagination
+pagination: {
+el: '.swiper-pagination',
+},
+
+// Navigation arrows
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+
+// And if we need scrollbar
+scrollbar: {
+el: '.swiper-scrollbar',
+},
+});
+      </script>
+      </html>
+
